@@ -42,7 +42,7 @@ $("ul").on("click", "li", function(){
          //Clear the value in the textbox 
          $(this).val(""); 
          // Create a new li and add to ul 
-         $("ul").append("<li><span> x </span>"  + textvalue + "</li>"); 
+         $("ul").append("<li><span> <i class = 'fa fa-trash'></i> </span>"  + textvalue + "</li>"); 
          
      }
  }); 
